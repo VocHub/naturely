@@ -1,0 +1,32 @@
+Animals DTD File
+
+Author:     Kiah Gethers
+Date:       12/01/2021
+Filename:   animals.dtd
+
+<!ELEMENT animals (navbar, mammals, reptiles, insects, amphibians)>
+<!ELEMENT navbar(title, homepages)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT homepages (homepage+)>
+<!ELEMENT homepage (#PCDATA)>
+
+<!ELEMENT mammals (mammal+)>
+<!ELEMENT mammal(#PCDATA)>
+
+<!ELEMENT reptiles (reptile+)>
+<!ELEMENT reptile(#PCDATA)
+
+<!ELEMENT insects(insect+)>
+<!ELEMENT insect(#PCDATA)>
+
+<!ELEMENT amphibians(amphibian+)>
+<!ELEMENT amphibian(#PCDATA)>
+
+<!ELEMENT description(summary, name, diet, habitat, location )>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT diet (#PCDATA)>
+<!ELEMENT habitat (#PCDATA)>
+<!ELEMENT location (#PCDATA)>

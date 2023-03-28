@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE dvdlibrary SYSTEM "animals.dtd">
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+
+<!-- Author: Kiah Gethers
+file description: This file contains an organized list and summary of different animals
+Date: 12/01/2021
+Filename: animals.xml -->
+<!-- <xml> -->
+  <!-- <![CDATA[
+  <html>
+<head>
+  <title>Animals(XM L)</title>
+</head>
+<body> -->
+<animals>
+        <html xmlns="http://www.w3.org/1999/xhtml">
+          <nav>
+            <section class="navleft">
+              <h3>Nature's Best Looks</h3>
+            </section>
+            <section class="navright">
+              <ul>
+                <li><a href="index.html#explore">EXPLORE</a></li>
+                <!-- <li><a href="#">SPONSOR(XSLT)</a></li> -->
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="mission.html">BOOK A TOUR</a></li>
+              </ul>
+           </section>
+         </nav>
+       </html>
+  <mammals>
+    <mammal>
+    <description>
+    <name>Black Panther</name>
+      <summary>The Panther is an elusive and powerful animal that has adapted well to a variety of habitats around the world, and is known to be one of the strongest climbers of all felines. Although the Panther is not technically classified as a separate species, they are considered to be endangered by many due to the declining numbers of both Leopards and Jaguars throughout much of their natural ranges.</summary>
+      <diet>Deer, Tapir, Wild Boar</diet>
+      <habitat>Forest, swampland and grasslands, hot, dense tropical rainforests.</habitat>
+      <location>They are mainly in Southwestern China, Burma, Nepal, Southern India, Indonesia, and the southern part of Malaysia. </location>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+      <img src="images\panther.png" class="panther"/>
+    </html>
+    </description>
+  </mammal>
+  <mammal>
+    <description>
+      <name>Koala</name>
+      <summary>  Koalas are well-known for their large round head, big furry ears and big black nose. Their fur is usually grey-brown in colour with white fur on the chest, inner arms, ears and bottom.</summary>
+      <diet>eucalypt leaves and a few other related tree species, including lophostemon, melaleuca and corymbia species (such as brush box, paperbark and bloodwood trees)</diet>
+      <habitat>Koalas are found in higher densities where food trees are growing on more fertile soils and along watercourses</habitat>
+      <location>Tree's of Australia</location>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <img src="images\koala.png" class="koala"/>
+      </html>
+    </description>
+  </mammal>
+  <mammal>
+    <description>
+      <name>Dolphin</name>
+      <summary>Most dolphins are small, measuring less than 10 feet in length, and have spindle-shaped bodies, beaklike snouts, and simple needlelike teeth.</summary>
+      <diet>a variety of fish, squid, shrimps, jellyfish and octopuses.</diet>
+      <habitat>Dolphins can live in either fresh or salt water. Distributed in marine environments worldwide, they range from equatorial to subpolar waters and also can be found in many major river systems.</habitat>
+      <location>  Dolphins live in all of the world's seas and oceans; many inhabit coastal areas or areas with shallower water.</location>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <img src="images\dolphin.png" class="dolphin"/>
+      </html>
+    </description>
+  </mammal>
+  </mammals>
+  <reptiles>
+    <reptile>
+    <description>
+      <name>Salt Water Crocodile</name>
+      <summary>The saltwater crocodile is the largest living reptile and crocodilian known to science. Males grow to a length of up to 20 feet, rarely exceeding 21 feet or a weight of 2,200–2,900 lb. Females are much smaller and rarely surpass 10 feet.</summary>
+      <diet>prey on a variety of species, from crabs and fish to birds, turtles, pigs, buffalo and even humans.</diet>
+      <habitat>native to saltwater habitats and brackish wetlands</habitat>
+      <location> India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia</location>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <img src="images\crocodile.png" class="croco"/>
+      </html>
+    </description>
+  </reptile>
+  <reptile>
+    <description>
+      <name>Black Mamba</name>
+      <summary>They are Africa's longest venomous snake, reaching up to 14 feet in length, although 8.2 feet is more the average. They are also among the fastest snakes in the world, slithering at speeds of up to 12.5 miles per hour.</summary>
+      <diet>Preys on birds, particularly nestlings and fledglings, and small mammals like rodents, bats, hyraxes, bushbabies and will also consume other snakes.</diet>
+      <habitat>savannas and rocky hills.</habitat>
+      <location>Southern and Eastern Africa</location>
+    </description>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <img src="images\mamba.png" class="mamba"/>
+    </html>
+  </reptile>
+  <reptile>
+    <description>
+      <name>Galapagos Tortoise</name>
+      <summary>They are the largest living species of tortoise, with some modern Galápagos tortoises weighing up to 417 kg (919 lb). With lifespans in the wild of over 100 years, they are one of the longest-lived vertebrates.</summary>
+      <diet>Grazing on grass, leaves, and cactus.</diet>
+      <habitat>Prefer to live in dry lowlands.</habitat>
+      <location>Native to seven of the Galápagos Islands.</location>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <img src="images\turtle.png" class="turtle"/>
+      </html>
+    </description>
+  </reptile>
+  </reptiles>
+  <insects>
+    <insect>
+    <description>
+      <name>Ladybug</name>
+      <summary>Most people like ladybugs because they are pretty, graceful, and harmless to humans. But farmers love them because they eat aphids and other plant-eating pests. One ladybug can eat up to 5,000 insects in its lifetime! Most ladybugs have oval, dome-shaped bodies with six short legs.</summary>
+      <diet>Plant-eating insects such as aphids.</diet>
+      <habitat>Can be found in grasslands, meadows, urban parks and gardens, forests, wetlands</habitat>
+      <location>Grasslands, forests, cities, suburbs, and along rivers.</location>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <img src="images\ladybug.png" class="ladybug"/>
+      </html>
+    </description>
+  </insect>
+  <insect>
+    <description>
+      <name>Honeybee</name>
+      <summary>They are known for producing and storing honey, or liquefied sugar, as well as building impressively large nests using wax secreted by workers in a particular colony.</summary>
+      <diet>They consume pollen and nectar from a variety of flowers.</diet>
+      <habitat>Gardens, woodlands, orchards, meadows and other areas. </habitat>
+      <location>Honey bees can thrive in natural or domesticated environments.</location>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <img src="images\honeybee.png" class="honeybee"/>
+      </html>
+    </description>
+  </insect>
+  <insect>
+    <description>
+      <name>Praying Mantis</name>
+      <summary>Praying mantids have long necks topped by a triangular head. They can turn their heads 180 degrees an entire half circle!. They're well-camouflaged, adapting colors that help them blend with plants. Some also have amazing body shapes that make them look like leaves or branches</summary>
+      <diet>Predominantly feed on crickets, grasshoppers, spiders, (monarch) butterflies, caterpillars, mosquitoes, small birds, lizards and occasionally other praying mantises.</diet>
+      <habitat> Most species live in the tropical rainforest, although others can be found in deserts, grasslands and meadowlands.</habitat>
+      <location>They are generally located in the warmer regions, particularly tropical and subtropical latitudes.</location>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <img src="images\mantis.png" class="mantis"/>
+      </html>
+    </description>
+  </insect>
+  </insects>
+  <amphibians>
+    <amphibian>
+    <description>
+      <name>American Bull Frog</name>
+      <summary>Bullfrogs are the largest real frog found in North America, weighing up to 1lb. and measuring 8 inches in length.Their color varies from brownish to shades of green, often with spots or blotches of a darker color around their backs. Their back feet are fully webbed.</summary>
+      <diet> Worms, insects, crayfish, fishes, other frogs, snakes, small turtles, small mammals and even birds</diet>
+      <habitat>Shallow waters, like those found at the edges of lakes and ponds or sluggish portions of streams and rivers.</habitat>
+      <location>The bullfrog's natural range extends from Nova Scotia to central Florida, from the Atlantic coast to Wisconsin, and across the Great Plains to the Rockies.</location>
+    </description>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <img src="images\frog.png" class="frog"/>
+    </html>
+  </amphibian>
+  <amphibian>
+    <description>
+      <name>Western Red Backed Salamander</name>
+      <summary>The western red-backed salamander has dark sides and a red, yellow. green or tan stripe down its back. It is three to four inches in length and has 16 coastal grooves.</summary>
+      <diet>Larvae eat snails, Pacific Tree Frogs, and Red-legged Frog tadpoles.</diet>
+      <habitat>found under rocks and fallen wood, along stream banks and in shady forests.</habitat>
+      <location>Southwestern Oregon to southwestern British Columbia. </location>
+    </description>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <img src="images\salamander.png" class="salamander"/>
+    </html>
+  </amphibian>
+  <amphibian>
+    <description>
+      <name>Cane Toad</name>
+      <summary>The cane toad is a large, warty, poisonous amphibian native to South and Central America and considered to be one of the worst invasive species in the world</summary>
+      <diet>Eats a variety of vegetation, insects, small birds, other toads or frogs, lizards, small mammals, and snakes.</diet>
+      <habitat>sand dunes and coastal grasslands to the margins of rain forests and mangroves.</habitat>
+      <location>Native to the Amazon basin in South America and north to the lower Rio Grande Valley in southern Texas.</location>
+    </description>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <img src="images\toad.png" class="toad"/>
+    </html>
+  </amphibian>
+  </amphibians>
+</animals>

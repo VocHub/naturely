@@ -1,0 +1,461 @@
+***{
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+nav{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(#26bd19, #428f3b, #65a86d, #38cf4a);
+  background-repeat: no-repeat;
+}
+.navleft{
+  float: left;
+}
+.navleft h3{
+  display: inline-block;
+  padding-left: 40px;
+  font-family: 'Meow Script', cursive;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  font-size: 60px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px #8b4513, 0 0 5px #83f2a1;
+}
+.navright{
+  float: right;
+}
+.navright ul{
+  display: inline-block;
+  margin-right: 40px;
+  list-style: none;
+  margin-top: 0px;
+
+}
+.navright li{
+  display: list-item;
+  border-left: 1px solid grey;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 40px;
+  display: inline-block;
+  padding-top: 20px;
+}
+.navright a{
+text-decoration: none;
+color: #ffffff;
+text-shadow: 1px 2px black;
+font-size: 20px;
+}
+.navright a:hover{
+ color: #47cc6b;
+ text-shadow: 1px 2px #27362b;
+ border-bottom: 4px solid #47cc6b;
+ box-shadow: 1px 2px #27362b;
+}
+.bgPic{
+  width:auto;
+  /* background-color: #CD853F; */
+  background-image:url("https://www.niabizoo.com/wp-content/uploads/2018/08/Amph_RedEyedTreeFrog.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 830px;
+  height: 600px;
+}
+.mission{ 
+/* border: #47cc6b 1px solid; */
+width:50%;
+height: 320px;
+opacity: .5;
+background-color: #80411c;
+display: inline-block;
+color: white;
+margin: 10% 0% 0% 25%;
+box-shadow: 10px 1px 10px whitesmoke;
+font-size: 18px;
+}
+.mission h3{
+  text-align: center;
+  text-shadow: 1px 2px #27362b;
+  font-size: 2em;
+
+}
+.mission p{
+  padding: 0% 9% 0% 9%;
+  text-shadow: 1px 2px #27362b;
+  
+}
+.back{
+  height: 600px;
+  width: auto;
+}
+.vid iframe{
+width: 75%;
+position: relative;
+left: 12%;
+border: 2px outset #D2691E;
+height: 500px;
+top: 5%;
+}
+footer{
+  /* border-top: 3px solid #616661; */
+  background: linear-gradient(#26bd19, #428f3b, #65a86d, #38cf4a);
+  height: 260px;
+  width: auto;
+}
+#explore iframe{
+  height: 200px;
+  width: 25%;
+  position: relative;
+  top: 30px;
+  left: 40px;
+  border: 3px outset grey;
+  box-shadow: 3px 3px black;
+  float: left;
+}
+footer h3{
+  /* float: right; */
+  /* position: relative; */
+  /* left: 22%; */
+  font-size: 50px;
+  font-family: 'Meow Script', cursive;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px #8b4513, 0 0 5px #83f2a1;
+  margin-top: 5px;
+  margin-bottom: 0px;
+
+}
+.forms{
+  position: relative;
+  left: 22%;
+  /* border: 1px solid yellow; */
+  height: 250px;
+  width: 69%;
+  display: inline-block;
+}
+.forms label{
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+}
+.forms input{
+  border-radius: 15px;
+  box-shadow: 3px 2px #4b574c;
+}
+.forms button{
+  display: block;
+  margin-top: 10px;
+  /* text-shadow: 2px 2px black; */
+  border-radius: 15px;
+  box-shadow: 3px 2px #4b574c;
+}
+.forms button:hover{
+background-color: #428f3b;
+color: white;
+text-shadow: 2px 2px black;
+font-size: 15px;
+}
+img{
+  height: 131px;
+  width: 100%;
+  /* display: inline; */
+  position: absolute;
+  margin-top: 9px;
+  /* left: 30%; */
+  /* box-shadow: 10px 1px 10px #67706a; */
+}
+animals{
+  background-attachment:fixed;
+  background: linear-gradient(#CD853F, #80411c, #b8734b, #cf8978);
+}
+mammals{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 400px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  /* display:inline-block; */
+}
+mammal{
+display: block;
+/* border: 1px solid blue; */
+height: 470px;
+width: 30%;
+clear: right;
+position: relative;
+left: 2%;
+font-weight: bolder;
+margin-bottom: 25px;
+background-color: #e6ebe7;
+box-shadow: 10px 1px 10px #505250;
+margin-top: 30px;
+margin-right: 40px;
+}
+
+.koala{
+    height: 167px;
+}
+.dolphin{
+    height: 167px;
+}
+.croco{
+    height: 167px;
+}
+.mamba{
+    height: 221px;
+}
+.turtle{
+    height: 257px;
+}
+.ladybug{
+    height: 203px;
+}
+.honeybee{
+    height: 221px;
+}
+.toad{
+    height: 185px;
+}
+description{
+  display: inline;
+}
+summary{
+display: block;
+margin-bottom: 8px;
+margin-left: 5px;
+}
+summary:before{
+  content: "Summary: ";
+  font-weight: bold;
+/* display: block; */
+/* margin-left: 5px; */
+display: inline-block;
+height: 20px;
+width: 25%;
+border: 1px solid;
+background-color: #65a86d;
+color: white;
+text-align: center;
+}
+name{
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+name:before{
+  content: "Name: ";
+  font-weight: bold;
+/* display: block; */
+/* margin-left: 5px; */
+display: inline-block;
+height: 20px;
+width: 25%;
+border: 1px solid;
+background-color: #65a86d;
+color: white;
+text-align: center;
+}
+diet{
+display: block;
+margin-bottom: 8px;
+margin-left: 5px;
+}
+diet:before{
+  content: "Diet: ";
+  font-weight: bold;
+/* display: block; */
+/* margin-left: 5px; */
+display: inline-block;
+height: 20px;
+width: 25%;
+border: 1px solid;
+background-color: #65a86d;
+color: white;
+text-align: center;
+}
+habitat{
+display: block;
+margin-bottom: 8px;
+margin-left: 5px;
+}
+habitat:before{
+  content: "Habitat: ";
+  font-weight: bold;
+/* display: block; */
+/* margin-left: 5px; */
+display: inline-block;
+height: 20px;
+width: 25%;
+border: 1px solid;
+background-color: #65a86d;
+color: white;
+text-align: center;
+}
+location{
+display: block;
+margin-bottom: 8px;
+margin-left: 5px;
+}
+location:before{
+  content: "Location: ";
+  font-weight: bold;
+/* display: block; */
+/* margin-left: 5px; */
+display: inline-block;
+height: 20px;
+width: 25%;
+border: 1px solid;
+background-color: #65a86d;
+color: white;
+text-align: center;
+}
+
+
+
+
+reptiles{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* display:inline-block; */
+}
+reptile{
+display: block;
+/* border: 1px solid blue; */
+height: 470px;
+width: 30%;
+position: relative;
+left: 2%;
+font-weight: bolder;
+margin-bottom: 25px;
+background-color: #e6ebe7;
+box-shadow: 10px 1px 10px #505250;
+margin-right: 40px;
+margin-top: 13%;
+}
+insects{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* display:inline-block; */
+}
+insect{
+display: block;
+/* border: 1px solid blue; */
+height: 488px;
+width: 30%;
+position: relative;
+left: 2%;
+font-weight: bolder;
+margin-bottom: 25px;
+background-color: #e6ebe7;
+box-shadow: 10px 1px 10px #505250;
+margin-right: 40px;
+margin-top: 25%;
+}
+amphibians{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ /* display:inline-block; */
+}
+amphibian{
+display: block;
+/* border: 1px solid blue; */
+height: 488px;
+width: 30%;
+position: relative;
+left:2%;
+font-weight: bolder;
+margin-bottom: 25px;
+background-color: #e6ebe7;
+box-shadow: 10px 1px 10px #505250;
+margin-right: 40px;
+margin-top: 37%;  
+margin-bottom: 10%;
+}
+
+.salamander{
+      height: 221px;
+}
+/* html{ */
+  /* display: inline-block; */
+/* } */
+navbar{
+  /* border: 1px solid red; */
+  width: auto;
+  height: 60px;
+  background-color: #65a86d;
+  display: block;
+}
+title{
+  /* float: left; */
+  display: inline-block;
+  padding-left: 40px;
+  font-family: 'Meow Script', cursive;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  font-size: 60px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px #8b4513, 0 0 5px #83f2a1;
+}
+homepages{
+  float: right;
+}
+
+homepage{text-decoration: none;
+color: #ffffff;
+text-shadow: 1px 2px black;
+font-size: 20px;
+border-left: 1px solid grey;
+padding-right: 15px;
+padding-left: 15px;
+height: 40px;
+display: inline-block;
+padding-top: 20px;
+}
+/* start of "Book A Tour Page" */
+.shorts ul{
+  display: inline-block;
+  margin-left: 237px;
+  list-style: none;
+  /* margin-top: 0px; */
+  padding: 0px;
+}
+.vids{
+height: 25em;
+width:60em;
+/* position: absolute; */
+/* top: 10%; */
+margin: 5px;
+margin-bottom: 30px;
+margin-top: 19px;
+border-radius: 30px;
+box-shadow: 10px 1px 10px #505250;
+display:none;
+}
+
+.shorts{
+  width:auto;
+  background: linear-gradient(#CD853F,  #b8734b, #cf8978, #80411c);
+  height: 600px;
+}
+.shorts li{
+  display: inline;
+  position: relative;
+  right: 10%;
+  margin-top: 10px;
+}
+/* End of "Book A Tour Page" */

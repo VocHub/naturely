@@ -1,0 +1,82 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nature's Best Looks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet"> -->
+  <script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("vids");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex - 1].style.display = "block";
+}
+  </script>
+  </head>
+  <body>
+   <nav>
+     <section class="navleft">
+       <h3>Nature's Best Looks</h3>
+     </section>
+     <section class="navright">
+       <ul>
+         <li><a href="#explore">EXPLORE</a></li>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="animals.xml">DISCOVER</a></li>
+         <!-- <li><a href="animals.xsl">SPONSOR(XSLT)</a></li> -->
+       </ul>
+    </section>
+  </nav>
+  <div class="shorts">
+      <iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/oI3ADcDH0Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/yzz22RF9Su8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/TUJkJ1c58k4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/ZRZsqdDBNxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/ws_D5nXOAJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="vids" width="560" height="315" src="https://www.youtube.com/embed/_bnur3gHJ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+    <footer>
+      <section id="explore">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94367.36631788463!2d-71.11649249281128!3d42.34294555949194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e36e2f718c213f%3A0x448439cd74faad8d!2sBelle%20Isle%20Marsh%20Reservation!5e0!3m2!1sen!2sus!4v1639339552305!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+
+        <section class= "forms">
+          <h3>Come Explore With Us!</h3>
+          <p></p>
+          <label>First Name*</label>
+          <form class="" action="index.html" method="post">
+            <input  placeholder="First Name"type="text" name="" value="">
+          </form>
+          <label>Last Name*</label>
+          <form class="" action="index.html" method="post">
+            <input placeholder="Last Name" type="text" name="" value="">
+          </form>
+          <label>Email Address*</label>
+          <form class="" action="index.html" method="post">
+            <input placeholder="Type Email Here" type="text" name="" value="">
+            <button type="button" name="button"> Sign Me Up</button>
+          </form>
+        </section>
+
+
+
+
+    </footer>
+
+    </body>
+  </html>
